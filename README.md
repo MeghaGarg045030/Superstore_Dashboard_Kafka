@@ -46,7 +46,8 @@ Key uses of this dataset include identifying high-value customers,sales trends, 
 <br>
 
 ## Dashboard
-![Complete Dashboard](https://github.com/user-attachments/assets/d27eae90-e264-4bf7-92a9-e4254ce06918)
+![Complete Graph](https://github.com/user-attachments/assets/c7c400c1-aa3c-4525-9eae-e3d6338e9f29)
+
 
 <br>
 <br>
@@ -55,196 +56,229 @@ Key uses of this dataset include identifying high-value customers,sales trends, 
 
 <br>
 
-[ELK_Dashboard_Video.webm](https://github.com/user-attachments/assets/97faec29-08c1-4621-b8ac-98352e7b573f)
+[Video.webm](https://github.com/user-attachments/assets/882566ff-2d67-45b8-9495-c318cf56a477)
 
-<br>
-
-[Video_ELK_2.webm](https://github.com/user-attachments/assets/e78829c3-d911-4843-aa3a-e77eb5418626)
 
 <br>
 <br>
 
 ## Charts<br>
 
-1. Which age group contributes the most revenue to the business product category wise?<br>
+1. What is the total revenue generated over the specified time period?<br>
 
-   <ins>**Age Group Sales Distribution by Product Category** </ins>
+   <ins>**Total Revenue** </ins>
 
-   **Description:** This bar chart displays sales values for Accessories and Clothing across two age groups: Adults (35-64) and Youth (<25). It helps identify the core 
-   customer demographic and their product preferences, supporting targeted marketing strategies and refined efforts for youth-focused campaigns.
+   **Description:** The purpose of this graph is to provide a quick, high-level overview of the total revenue earned. It is a key performance indicator (KPI) often displayed prominently in dashboards to communicate financial performance at a glance.
 
-   ![Graph -1](https://github.com/user-attachments/assets/cce62f8a-b604-42b6-b68b-4c221c7cda02)
+   ![Graph-1](https://github.com/user-attachments/assets/da5b5d94-e353-49d6-afdc-a056c6079c82)
 
-   The graph shows that **Adults (35-54)** generate the highest revenue across all product categories, with **clothing** being the dominant contributor, followed by 
-   **Accessories**. **Young Adults (25-34)** rank second in revenue, while **Youth (<25)** contribute the least. This indicates that marketing efforts should focus on 
-   **Adults** and enhancing engagement with the **younger age group**.
 
-<br>
-<br>
+- The business or project generated a total revenue of 8,731,336 (units depend on the currency or scale used in the data). 
+- This figure can serve as a baseline to compare against revenue targets, previous periods, or industry benchmarks.
+- If part of a time-series analysis, it could prompt further investigation into what factors contributed to achieving this revenue level.
 
-2. How has the revenue trended over time compared to profit?<br>
-
-   <ins>**Revenue and Profit Trend Over Time**</ins>
-
-   **Description:** This line chart illustrates trends in revenue and profit over a specific time period, highlighting fluctuations and divergences between the two metrics. 
-   The chart provides insights into financial performance dynamics, helping to analyze volatility drivers and stabilize profits during revenue fluctuations.
-
-   ![Graph -3](https://github.com/user-attachments/assets/bd00d6b9-5ae8-4af3-b02c-01292d6ddbc5)
-
-   The graph shows that revenue is consistently higher than profit over time, with significant fluctuations in both. A notable gap exists between revenue and profit, 
-   suggesting high operating costs or expenses. This dynamic environment highlights the need for deeper analysis to identify causes of volatility, manage risks, and 
-   leverage periods of growth.
 
 <br>
 <br>
 
-3. How does revenue change over time?<br>
+2. What percentage of the total revenue is derived as profit?<br>
 
-   <ins>**Revenue Over Time**</ins>
+   <ins>**Percentage of Profit by Revenue**</ins>
 
-   **Description:** This line chart tracks revenue over time, showcasing spikes and fluctuations in customer demand or event-driven sales. The chart identifies drivers 
-   behind revenue spikes, optimizes strategies for low-revenue periods, and smoothens revenue fluctuations for consistent performance.
+   **Description:** The purpose of this KPI is to highlight the profitability of the business or project relative to its revenue. It is a critical measure of operational efficiency and financial health.
 
-   ![Graph -2](https://github.com/user-attachments/assets/cdbebb72-f1dc-49b2-adb7-5cebbe3bbe38)
+   ![Graph-2](https://github.com/user-attachments/assets/fc1416f5-54d7-4e12-abb1-e7cad1b29184)
 
-   Revenue spikes occur periodically without a steady trend, reflecting dynamic customer behavior or event-driven sales. Understanding the drivers of these peaks (e.g., 
-   promotions or seasonal demand) can help smooth revenue fluctuations and optimize strategies for periods of lower activity.
 
-<br>
-<br>
+   **Profitability Ratio:** The profit margin is 29.317%, indicating that for every 100 units of revenue, the business retains 29.317 units as profit. 
+   **Performance Indicator:** A profit percentage of this level could be considered strong or weak depending on the industry. For example, industries like technology may have higher margins, while manufacturing or retail could have lower ones.
+   **Actionable Insights:** This metric could prompt further analysis into costs or operational efficiencies if the percentage is below expectations. Conversely, a high profit margin could signal strong cost control and pricing strategies
 
-4. What are the top 5 sub-categories by profit margins, and how do they compare?<br>
-
-   <ins>**Product Profit Margin Analysis by Subcategory**</ins>
-
-   **Description:** This donut chart displays profit margins for various product subcategories, ranking them from highest to lowest. It enables prioritization of high- 
-   margin products and exploration of opportunities to improve profitability in lower-margin items.
-
-   ![Graph -4](https://github.com/user-attachments/assets/d86a96f9-05d6-408f-9d50-ff27dfe7c8b4)
-
-   The key insight is that **Bottles and Cages** lead profit margins **(58.52%)**, followed by **Bike Racks (21.98%)** and **Bike Stands (14.58%)**, while **Cameras and 
-   Electronics** are relatively low **(4.92%)**. This indicates the need to focus on the most profitable categories to drive profitability further while exploring 
-   opportunities to improve lower-margin products.
 
 <br>
 <br>
 
-5. Which states have the highest sales revenue for the top 6 products?<br>
+3. What is the average number of days taken for delivery?<br>
 
-   <ins>**Sales Performance Analysis by Products**</ins>
+   <ins>**Average Delivery Days**</ins>
 
-   **Description:** This heat map chart visualizes sales performance by geographic regions, such as California, British Columbia, and England. The chart aids in sustaining 
-   growth in high-performing regions and identifies potential for expansion in underperforming markets.
+   **Description:** The purpose of this KPI is to monitor the efficiency of the delivery process and assess whether the organization is meeting delivery time targets. It serves as a critical metric in evaluating customer satisfaction and operational performance.
+
+   ![Graph-3](https://github.com/user-attachments/assets/f6320ca4-a740-4b6e-897e-e73cd18ff6fb)
+
+
+   **Average Delivery Time:** The average delivery time is 3.097 days, meaning it typically takes just over 3 days to fulfill and deliver orders.
+   **Performance Analysis:** If the target delivery time is under 3 days, this metric suggests there might be slight delays in the process. Conversely, if the goal is under 4 days, this is a positive result.
+   **Actionable Steps:** If delivery time exceeds expectations, factors such as logistics, supply chain bottlenecks, or operational inefficiencies should be reviewed. Consistently low delivery times could be leveraged as a competitive advantage in marketing efforts.
+
+
+<br>
+<br>
+
+4. How is profit distributed across different business segments (Consumer, Corporate, Home Office)?<br>
+
+   <ins>**Profit by Segment**</ins>
+
+   **Description:** To identify which segment contributes the most or least to overall profitability. This can help focus business strategies on high-performing segments and address challenges in underperforming ones.
+
+      ![Graph-4](https://github.com/user-attachments/assets/23415ae9-f88c-4b6e-a47e-5a5eb7f20895)
+
+
+   The **Consumer segment dominates profitability**, reflecting strong demand or higher margins, possibly driven by effective marketing and sales efforts or higher transaction volumes. The Corporate segment contributes moderately, suggesting potential for growth through tailored products, bulk discounts, or enhanced services. In contrast, the Home Office segment has the lowest profitability, likely due to low sales volume, higher costs, or limited focus. A deeper analysis is needed to determine whether to invest in growing this segment or reallocate resources to stronger areas.
+
+<br>
+<br>
+
+5. How have sales accumulated over time? What is the trend in sales performance over a given period?<br>
+
+   <ins>**Sales Timeline**</ins>
+
+   **Description:** To visualize the growth of sales over time and understand whether there is a consistent increase or decline in sales. It helps track how well sales are progressing and at what rate they are growing.
    
-   ![Graph -8](https://github.com/user-attachments/assets/b017d811-acbb-4d4e-a16b-93b3a4be2fa0)
+   ![Graph-5](https://github.com/user-attachments/assets/91369747-656c-410f-b07c-84606d1b6dd6)
 
-   **California** leads in **product sales**, with **British Columbia** and **England** also showing strong performance. Other states show moderate sales, indicating a need 
-   to focus efforts on these top-performing regions and products for better overall revenue.
 
-<br>
-<br>
+   The chart shows a **steady increase in sales** over time, suggesting that sales have been growing consistently. The **steep slope** at certain points indicates periods of higher growth, while the **gradual increase** at others shows slower growth. Overall, the trend is **positive**, indicating that sales are continuously rising.
 
-6. What are the key regions for further investment and growth opportunities?<br>
-
-   <ins>**Country-Wise Revenue**</ins>
-
-   **Description:** This map shows the revenue contribution of different countries, providing a comparative analysis of global market performance. It guides resource 
-   allocation in dominant markets while identifying emerging regions and untapped potential for growth.
-
-   ![Graph -5](https://github.com/user-attachments/assets/894ac8bb-c8b5-4290-a78d-f3848e73b60d)
-
-   The map highlights Country-wise Profit, with **Canada** and the **United States** showing the highest profitability, followed by select regions in **Europe**. **Asia** 
-   and **Oceania** show growth potential, while **South America** and **Africa** contribute minimally. A focus on optimizing top markets, while strategies for expanding in 
-   Asia and Oceania, and penetrating low-performing regions, can drive global growth.
 
 <br>
 <br>
 
-7. How do different product types compare in revenue contribution?<br>
+6. What are the total sales for each sub-category within the main product categories (Technology, Furniture, and Office Supplies)?<br>
 
-   <ins>**Top Product by Revenue**</ins>
+   <ins>**Sales by Category and Sub- Category**</ins>
 
-   **Description:** This word cloud chart ranks products by the revenue they generate, highlighting the best and worst-performing items. The chart informs resource 
-   allocation for top-performing products and identifies areas for improvement in pricing or demand for underperforming items.
+   **Description:** This graph aims to compare sales performance across different sub-categories within the three main product categories. It helps in identifying which sub-categories contribute the most to total sales and where there may be opportunities for improvement.
+
+   ![Graph-6](https://github.com/user-attachments/assets/4aacb3e8-b087-4c7c-8278-93a4246a4a70)
+
+
+   Technology leads in sales, driven by Phones and Copiers, with Accessories and Machines contributing less significantly. Furniture follows, with Chairs and Tables dominating, while Bookcases and Furnishings make moderate contributions. Office Supplies lag behind, with Appliances and Storage contributing modestly, and minimal impact from Binders and Paper. Optimizing strategies around high-performing sub-categories like Phones, Chairs, and Copiers, while analyzing weaker sub-categories, could enhance overall sales performance.
+
+<br>
+<br>
+
+7. How do discounts affect profit across different sub-categories of products?<br>
+
+   <ins>**Discount Impact on Profit**</ins>
+
+   **Description:** The graph aims to evaluate the relationship between the level of discounts and the corresponding profit for various sub-categories. This information helps in understanding whether higher discounts lead to increased profitability or if they negatively impact the bottom line.
    
-   ![Graph -10](https://github.com/user-attachments/assets/c97b54f4-636b-4d6c-b220-e39acd76d552)
+   ![Graph-7](https://github.com/user-attachments/assets/23252ffb-442c-4d44-a30c-bd1744e20473)
 
-   This word cloud highlights the top products by revenue, emphasizing items like the **Hitch_Rack_4_Bike** and **AWC_Logo_Cap**, which stand out as major revenue drivers 
-   followed by **All_Purpose_Bike_Stand** and **Mountain_Bottle_Cage**.
+
+   Sub-categories with moderate discounts (0.5–0.6) generally maintain better profitability, while higher discounts (>0.7) erode profits. Phones stand out with decent profits even at higher discounts, indicating strong demand. Chairs show the highest profitability within specific discount ranges but suffer from excessive discounts, while Tables and Copiers display moderate profitability that declines with higher discounts. In contrast, Appliances, Bookcases, and Accessories show low profit margins across all discount levels, suggesting discounts are less effective for these sub-categories. Overall, moderate discounts optimize profitability across most sub-categories.
 
 <br>
 <br>
 
-8. What is the Country wise Ordered Quantity?<br>
+8. Which cities contribute the most to revenue, and how is the revenue distributed across various cities?<br>
 
-   <ins>**Country-Wise Order Quantity**</ins>
+   <ins>**Citywise Revenue**</ins>
 
-   **Description:** This waffle chart displays order quantities by country, comparing sales volumes across different regions. It strengthens sales efforts in leading 
-   markets and identifies opportunities to boost demand in underperforming regions for broader penetration.
+   **Description:** The purpose of this word cloud is to visualize city-wise revenue contributions in a clear and engaging way. Larger fonts indicate higher revenue contributions, helping identify key cities driving sales.
       
-   ![Graph -9 (1)](https://github.com/user-attachments/assets/a73927e5-5caf-4eaa-b131-96f99e67b02b)
+   ![Graph-8](https://github.com/user-attachments/assets/03298918-8b1b-44aa-9ead-0f2195a8a4d9)
 
-   The **United States** leads in order quantity **(109,830 units)**, followed by Australia (61,395 units). While maintaining dominance in the U.S., strategies to boost 
-   sales in underperforming regions like Germany and "Others" could unlock additional growth potential.
+
+   Sydney leads in revenue contribution, followed by cities like Gold Coast, Mexico City, London, and Brisbane, indicating key markets or business hubs. Moderate contributors include Jakarta, Bangkok, Manila, Melbourne, and Adelaide, which may offer growth potential. Smaller cities like Thiruvananthapuram and Gorakhpur contribute minimally, reflecting niche or limited markets. The revenue base is geographically diverse, with a stronger focus on regions like Australia and Asia.
 
 <br>
 <br>
 
-9. What proportion of total revenue is contributed by profit, and how does the average unit cost compare to the average unit price?<br>
+9. Which customers generate the highest revenue and profitability for the company?<br>
 
-   <ins>**Profit as a Part of Revenue**</ins>
+   <ins>**Top 20 Countries by Sales and Profit**</ins>
 
-   **Description:** This gauge chart illustrates the proportion of profit within total revenue, showcasing overall profit margin efficiency. It evaluates cost management 
-   effectiveness, supports reinvestment decisions, and informs pricing strategies to maintain profitability.
+   **Description:** The purpose of the graph is to identify the top-performing customers in terms of revenue and profit while analyzing the relationship between sales and profit across these key customers. It helps in making data-driven decisions by highlighting which customers contribute the most to overall business performance and where efforts should be focused to nurture high-value customer relationships effectively.
    
-   ![Graph -6](https://github.com/user-attachments/assets/dc4ff53f-050d-46be-a9b0-6a0da63e912e)
+   ![Graph-9](https://github.com/user-attachments/assets/8f630c4c-2ae4-4bb2-a5e3-1b1a1d482e50)
 
-   Profit constitutes 50.3% of total revenue ($1.39M of $2.75M), indicating a healthy profit margin. This reflects efficient cost management, offering opportunities to 
-   reinvest profits strategically for growth, optimize costs further, or develop sustainable pricing models to maintain profitability.
+
+   Adrian Barton leads as the top customer, generating the highest sales and profit, followed by significant contributors like Adam Bellavance and Dave Porter. Customers such as Alan Hwang and Ann McFarland show lower profit margins relative to sales, while Chuck Sachs and Jennifer Ferguson have higher profit margins. Among the top 20 customers, performance varies, with some excelling in sales volume and others contributing more through higher profit margins.
+
 
 <br>
 <br>
    
-10. What proportion of total revenue is contributed by profit, and how does the average unit cost compare to the average unit price?<br>
+10. Which category generates the most revenue?<br>
 
-    <ins>**Average Unit Cost as a Part of Average Unit Price**</ins>
+    <ins>**Category wise Total Sales**</ins>
 
-    **Description:** This gauge chart compares the average unit cost with the average unit price, showing their relationship and cost-to-price ratio. The chart evaluates 
-    pricing strategies, highlighting areas for cost reduction and ensuring competitive yet profitable pricing structures.
+    **Description:** The purpose of the graph is to compare sales performance across different product categories and identify how they perform relative to predefined thresholds. It highlights the top-performing categories, such as Technology, while also drawing attention to underperforming ones, like Office Supplies. This allows for a quick assessment of overall performance and helps prioritize actions to boost sales in lagging categories or sustain growth in high-performing ones.
+    
+    ![Graph-10](https://github.com/user-attachments/assets/60db048a-3f61-4c1e-9032-fc5d6a258107)
 
-    ![Graph -7](https://github.com/user-attachments/assets/5d798dc7-17e0-4032-9d9e-d70f2698daf2)
 
-    With an average unit cost of $5.76 making up 42.7% of the average unit price ($13.50), the business maintains a strong profit margin. This cost structure allows 
-    competitive pricing while sustaining profitability. Strategic cost reductions or price adjustments could further enhance margins.
+    Technology leads in sales with 3,550,216, indicating strong performance, followed by Furniture at 2,976,622, which is near the next performance threshold. Office Supplies trails significantly at 1,677,568. Growth opportunities include pushing Technology sales beyond 4,000,000, boosting Furniture to transition into a higher performance zone, and implementing strategic initiatives to improve Office Supplies sales. A strategic focus on sustaining Technology’s momentum and promoting Furniture and Office Supplies through targeted campaigns or pricing strategies can drive overall growth.
 
 <br>
 <br>
+
+11. What is the impact of selecting a specific date on the displayed data?<br>
+
+    <ins>**Date Slider**</ins>
+
+    **Description:** The purpose of the graph is to allow users to filter and analyze data for a specific time period or date. It enables dynamic interaction with the dataset by focusing on orders from a chosen date, providing flexibility for temporal analysis of trends or patterns. This feature ensures ease of use by offering options to apply, cancel, or clear selections, making it an effective tool for targeted analysis of specific time frames.
+    
+    ![Graph-11](https://github.com/user-attachments/assets/a29d42b7-0688-4696-935e-d997ec425616)
+
+
+    Interactive filtering allows users to analyze metrics like sales and profit for specific dates, such as April 15, 2015. The "Apply changes" and "Cancel changes" options enhance usability by enabling confirmation or reversal of selections. This feature supports custom analysis, making it valuable for tracking performance during key periods like product launches, seasonal sales, or financial reporting.
+
+
+<br>
+<br>
+
+12. What is the specific year for which data needs to be analyzed or filtered on the dashboard?<br>
+
+    <ins>**Year Slider**</ins>
+
+    **Description:** The purpose of the year slider is to provide an interactive tool for users to filter the data displayed on the dashboard based on a selected year (in this case, 2012). It helps users focus on insights for a specific timeframe.
+    
+    ![Graph-12](https://github.com/user-attachments/assets/f3f243f1-f4e3-4f90-9d50-50f837f93051)
+
+
+    This graph does not provide direct insights but acts as a filtering mechanism for the dashboard. By selecting "2012" (or any other year), the user can dynamically adjust the other graphs and visualizations on the dashboard to reflect data corresponding to the chosen year.
+
+
+
+<br>
+<br>
+
 
 ## Managerial Insights<br>
-- Customer-Centric Marketing and Engagement<br>
-  - **Prioritize the Adult Demographic (35–54)**: This age group generates the highest revenue across all product categories, particularly Clothing. Allocate marketing resources to campaigns targeting Adults, emphasizing Clothing and related accessories.<br>
-  - **Expand Youth Engagement (<25)**: Youth (<25) contribute the least revenue, suggesting an opportunity to develop targeted campaigns and affordable product options to engage and grow this segment..<br>
 
-- Regional Investment Prioritization<br>
-  - **Enhance Performance in High-Revenue Markets**: North America (U.S. and Canada) and Europe are the strongest revenue-generating regions. Prioritize resource allocation, marketing, and supply chain optimization in these markets<br>
-  - **Develop Potential in Emerging States**: States with moderate sales, such as South America and Africa, could benefit from increased promotional efforts, particularly improving distribution channels or launching region-specific products.<br>
+- Revenue and Profitability Analysis<br>
+  - **Total Revenue:**: The organization generated significant revenue of 8,731,336 units, which can serve as a benchmark for evaluating financial performance.<br>
+  - **Profitability**: With a profit margin of 29.317%, the business demonstrates operational efficiency. However, further cost analysis might be required if this ratio is below industry standards.<br>
 
-- Profit-Oriented Product Strategy<br>
-  - **Promote High-Margin Products**: Products like "Hitch_Rack_4_Bike" and "AWC_Logo_Cap" drive significant revenue.. Focus marketing and production efforts on these high-performing items to boost overall profitability.<br>
-  - **Revise Strategy for Lower-Margin Products**: Evaluate sub-categories with lower profit margins and assess the feasibility of reducing production or enhancing value propositions.<br>
+- Segment-Wise Profit Distribution<br>
+  - The Consumer segment dominates profitability, highlighting the effectiveness of marketing strategies targeted at individual consumers.<br>
+  - The Corporate segment performs moderately, suggesting potential for growth through tailored business solutions.<br>
+  - The Home Office segment underperforms, necessitating a strategic review.<br>
 
-- Revenue and Profit Optimization<br>
-  - **Close Revenue-Profit Gap**: The significant gap between revenue and profit highlights high operating costs. Conduct a cost analysis to identify inefficiencies in manufacturing, logistics, or marketing and implement measures to optimize expenditure.<br>
-  - **Revenue and Profit Volatility**: Significant fluctuations in revenue and profit suggest a dynamic business environment. Investigating the underlying drivers of this volatility, such as promotions, seasonal demand, or market-specific factors, is essential. Implementing strategies to stabilize revenue trends while leveraging peak periods can enhance financial performance.<br>
-  - **Implement Strategic Pricing Models**: With the average unit price significantly higher than the unit cost, consider introducing price segmentation strategies (e.g., premium pricing for high-demand products) to enhance profitability.<br>
+- Product Category Insights<br>
+  - Technology leads in revenue, driven by sub-categories like Phones and Copiers, which should remain a strategic focus.<br>
+  - Furniture and Office Supplies offer opportunities for improvement through marketing or product diversification.<br>
 
-- Market Expansion and Growth Strategies<br>
-  - **Strengthen Leadership in Key Regions**: The U.S. leads in order quantities, followed by Australia, highlighting their importance as primary markets. Efforts should focus on maintaining this dominance.<br>
-  - **Expand Market Share in Under performing Regions**: Regions like South America and Africa have the lowest revenue and order quantities. Implement localized marketing, improve distribution, and assess product relevance to penetrate these markets effectively.
+- Discount and Profit Relationship:<br>
+  - Sub-categories like Phones and Chairs maintain profitability even with higher discounts, while excessive discounts negatively impact others like Tables and Accessories. A calibrated discounting strategy is essential.<br>
+
+- Geographical Insights<br>
+  - Cities like Sydney and London dominate revenue contributions, emphasizing the importance of sustaining operations in these areas.<br>
+  - Moderate contributors like Jakarta and Bangkok could benefit from targeted growth initiatives.
 
 <br>
 <br>
 
 ## Conclusion<br>
 
-To drive growth, the business should focus on high-performing markets like the U.S. and Australia while exploring emerging regions such as South America and Africa. Targeted marketing to adults (35–54) and engaging the youth segment will expand the customer base. Prioritizing high-margin products and optimizing costs will improve profitability. Addressing revenue and profit volatility through strategic pricing and cost management will stabilize performance. A balanced approach to market expansion and cost optimization will ensure sustained growth and strengthen the business’s competitive edge.
+The insights derived from this dataset emphasize the organization's strengths in revenue generation, profitability, and market presence. However, there are clear opportunities for growth in underperforming segments, sub-categories, and geographical regions. The positive sales trends and robust consumer demand suggest that the business is well-positioned to capitalize on its strengths while addressing inefficiencies.
+To maximize potential, management should focus on:
+1.	Enhancing profitability in lagging segments like Home Office.
+2.	Optimizing operational efficiencies in shipping and delivery.
+3.	Leveraging high-performing sub-categories like Phones and Chairs while reevaluating low-margin ones.
+4.	Expanding market reach in moderately contributing cities and customer segments.
+
+With strategic focus and data-driven decision-making, the organization can sustain growth and achieve long-term success.
